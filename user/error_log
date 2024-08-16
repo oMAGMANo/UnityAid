@@ -1,0 +1,170 @@
+[13-Apr-2024 16:36:57 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:36:57 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:39:50 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:39:50 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:39:58 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:39:58 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:40:11 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:40:11 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:41:02 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:41:02 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:42:34 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:42:34 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:43:35 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:43:35 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:43:52 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:43:52 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:45:25 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:45:25 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:46:01 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:46:01 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/header.php on line 2
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 3
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 4
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 5
+[13-Apr-2024 16:46:03 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/dashboard.php on line 129
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/header.php on line 2
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 3
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 4
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 5
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/dashboard.php on line 129
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/header.php on line 2
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 3
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 4
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 5
+[13-Apr-2024 16:46:05 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/dashboard.php on line 129
+[13-Apr-2024 16:47:46 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:47:46 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:47:49 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:47:49 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:15 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:15 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:34 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:34 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:36 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:36 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:39 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:39 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:43 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:43 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:46 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:46 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[13-Apr-2024 16:48:49 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[13-Apr-2024 16:48:49 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:32:46 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:32:46 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:32:53 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:32:53 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:33:44 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:33:44 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:33:54 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:33:54 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:34:02 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:34:02 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:38:37 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:38:37 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:38:48 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:38:48 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:41:36 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:41:36 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:42:25 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:42:25 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:42:27 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:42:27 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:42:34 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:42:34 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:42:37 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:42:37 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:42:41 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:42:41 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:04 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:04 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:11 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:11 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:14 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:14 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:20 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:20 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:23 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:23 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:28 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:28 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:31 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:31 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:37 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:37 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:43:40 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:43:40 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:44:57 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:44:57 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:02 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:02 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:06 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:06 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:09 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:09 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:15 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:15 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:22 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:22 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:24 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:24 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:27 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:27 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:29 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:29 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:47 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:47 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:54 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:54 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:45:59 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:45:59 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 17:46:08 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 17:46:08 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/header.php on line 2
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 3
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 4
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/groundin/crowd.ground11.in/user/header.php on line 5
+[14-Apr-2024 19:12:28 Asia/Kolkata] PHP Notice:  Undefined index: login_id in /home/groundin/crowd.ground11.in/user/all-campaign.php on line 76
+[15-Apr-2024 01:35:40 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 01:35:40 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 01:35:50 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 01:35:50 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 01:36:01 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 01:36:01 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:11:56 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:11:56 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:13:28 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:13:28 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:15:37 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:15:37 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:16:03 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:16:03 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:16:13 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:16:13 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:16:29 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:16:29 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:17:13 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:17:13 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:17:29 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:17:29 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[15-Apr-2024 15:18:00 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[15-Apr-2024 15:18:00 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[16-Apr-2024 08:45:03 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[16-Apr-2024 08:45:03 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[16-Apr-2024 08:45:15 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[16-Apr-2024 08:45:15 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[16-Apr-2024 08:45:55 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[16-Apr-2024 08:45:55 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[16-Apr-2024 08:45:59 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[16-Apr-2024 08:45:59 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10
+[16-Apr-2024 08:46:09 Asia/Kolkata] PHP Notice:  Constant SCROLL_COLOR already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 9
+[16-Apr-2024 08:46:09 Asia/Kolkata] PHP Notice:  Constant SITETITLE already defined in /home/groundin/crowd.ground11.in/config.inc.php on line 10

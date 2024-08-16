@@ -1,0 +1,1099 @@
+
+<!DOCTYPE html>
+
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed ">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        <title>Pnixfund | Campaign Details</title>
+        <link rel="shortcut icon" type="image/png" href="../assets/universal/images/logoFavicon/favicon.png">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+        <!-- Css -->
+        <link rel="stylesheet" href="../assets/admin/css/style.css">
+        <link rel="stylesheet" href="../assets/admin/css/theme.css">
+        <link rel="stylesheet" href="../assets/admin/css/custom.css">
+        <link rel="stylesheet" href="../assets/admin/css/scrollbar.css">
+        <link rel="stylesheet" href="../assets/universal/css/font-awesome.css">
+        <link rel="stylesheet" href="../assets/universal/css/line-awesome.css">
+
+            <link rel="stylesheet" href="../assets/admin/css/page/swiper.css">
+    <link rel="stylesheet" href="../assets/admin/css/page/ui-carousel.css">
+            <style>
+        .description p {
+            margin-bottom: 0;
+        }
+
+        .custom-progress-bar {
+            max-width: 435px;
+            margin-left: 7px;
+        }
+
+        .donation-details__document object {
+            width: 100%;
+            height: 450px;
+            border-radius: 5px;
+        }
+
+        .commentDeleteButton i {
+            font-size: 1.2rem;
+        }
+
+        ul.pagination {
+            margin-bottom: 0;
+        }
+    </style>
+    </head>
+
+    <body>
+            <div class="layout-wrapper layout-content-navbar">
+        <div class="layout-container">
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+    <div class="app-brand demo">
+        <a href="../admin/dashboard" class="app-brand-link">
+            <span class="app-brand-text demo menu-text fw-bolder ms-2 logo-big">
+                <img src="../assets/universal/images/logoFavicon/logo_dark.png" alt="logo">
+            </span>
+            <span class="app-brand-text demo menu-text fw-bolder logo-small">
+                <img src="../assets/universal/images/logoFavicon/favicon.png" alt="logo">
+            </span>
+        </a>
+
+        <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+            <i class="las la-chevron-left align-middle"></i>
+        </a>
+    </div>
+
+    <div id="searchBoxSm"></div>
+    <div class="menu-inner-shadow"></div>
+
+    <ul class="menu-inner py-1">
+        <li class="menu-item ">
+            <a href="../admin/dashboard" class="menu-link">
+                <i class="menu-icon tf-icons las la-tachometer-alt text-primary"></i>
+                <div class="text-truncate">Dashboard</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/categories/index" class="menu-link">
+                <i class="menu-icon tf-icons las la-stream text-warning"></i>
+                <div class="text-truncate">Categories</div>
+            </a>
+        </li>
+
+        <li class="menu-item active open">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-bullhorn text-cyan"></i>
+                <div class="text-truncate text-nowrap d-inline-block">Campaigns</div>
+                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto"><i class="las la-exclamation"></i></div>
+                            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/index" class="menu-link">
+                        <div class="text-truncate">All</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/pending" class="menu-link">
+                        <div class="text-truncate">Pending</div>
+                                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">2</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/approved" class="menu-link">
+                        <div class="text-truncate">Approved</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/rejected" class="menu-link">
+                        <div class="text-truncate">Rejected</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/running" class="menu-link">
+                        <div class="text-truncate">Running</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/upcoming" class="menu-link">
+                        <div class="text-truncate">Upcoming</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/campaigns/expired" class="menu-link">
+                        <div class="text-truncate">Expired</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/comments/index" class="menu-link">
+                <i class="menu-icon tf-icons las la-comment text-info"></i>
+                <div class="text-truncate">Comments</div>
+                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">3</div>
+                            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-credit-card text-info"></i>
+                <div class="text-truncate">Payment Methods</div>
+            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/gateway/automated" class="menu-link">
+                        <div class="text-truncate">Automated</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/gateway/manual" class="menu-link">
+                        <div class="text-truncate">Manual</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-users text-purple"></i>
+                <div class="text-truncate text-nowrap d-inline-block">Users</div>
+                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">
+                        <i class="las la-exclamation"></i>
+                    </div>
+                            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/user/index" class="menu-link">
+                        <div class="text-truncate">All</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/active" class="menu-link">
+                        <div class="text-truncate">Active</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/banned" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">Banned</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/kyc-pending" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">KYC Pending</div>
+                                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">2</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/kyc-unconfirmed" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">KYC Unconfirmed</div>
+                                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">15</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/email-unconfirmed" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">Email Unconfirmed</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/user/mobile-unconfirmed" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">Mobile Unconfirmed</div>
+                                            </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-hand-holding-usd text-success"></i>
+                <div class="text-truncate text-nowrap d-inline-block">Donations</div>
+                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">
+                        <i class="las la-exclamation"></i>
+                    </div>
+                            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/donations/index" class="menu-link">
+                        <div class="text-truncate">All</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/donations/pending" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">Pending</div>
+                                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">3</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/donations/done" class="menu-link">
+                        <div class="text-truncate">Done</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/donations/cancelled" class="menu-link">
+                        <div class="text-truncate">Cancelled</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-university text-pink"></i>
+                <div class="text-truncate text-nowrap d-inline-block">Withdrawals</div>
+                            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/withdraw/method" class="menu-link">
+                        <div class="text-truncate">Methods</div>
+                    </a>
+                </li>
+
+                <li class="menu-item ">
+                    <a href="../admin/withdraw/index" class="menu-link">
+                        <div class="text-truncate">All</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/withdraw/pending" class="menu-link">
+                        <div class="text-truncate text-nowrap d-inline-block">Pending</div>
+                                            </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/withdraw/done" class="menu-link">
+                        <div class="text-truncate">Done</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/withdraw/cancelled" class="menu-link">
+                        <div class="text-truncate">Cancelled</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/transaction" class="menu-link">
+                <i class="menu-icon tf-icons las la-exchange-alt text-primary"></i>
+                <div class="text-truncate">Transactions</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/contact" class="menu-link">
+                <i class="menu-icon tf-icons las la-address-book text-info"></i>
+                <div class="text-truncate">Contacts</div>
+                                    <div class="badge bg-label-danger fs-tiny rounded-pill ms-auto">12</div>
+                            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/subscriber" class="menu-link">
+                <i class="menu-icon tf-icons las la-user-plus text-success"></i>
+                <div class="text-truncate">Subscribers</div>
+            </a>
+        </li>
+
+        <li class="menu-header small">
+            <span class="menu-header-text">GENERAL PREFERENCES</span>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/setting/basic" class="menu-link">
+                <i class="menu-icon tf-icons las la-cog text-purple"></i>
+                <div class="text-truncate">Basic</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons las la-bell text-cyan"></i>
+                <div class="text-truncate">Email & SMS</div>
+            </a>
+            <ul class="menu-sub">
+                <li class="menu-item ">
+                    <a href="../admin/notification/universal" class="menu-link">
+                        <div class="text-truncate">Universal Template</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/notification/email/setting" class="menu-link">
+                        <div class="text-truncate">Email Config</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/notification/sms/setting" class="menu-link">
+                        <div class="text-truncate">SMS Config</div>
+                    </a>
+                </li>
+                <li class="menu-item ">
+                    <a href="../admin/notification/templates" class="menu-link">
+                        <div class="text-truncate">All Templates</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/setting/plugin" class="menu-link">
+                <i class="menu-icon tf-icons las la-plug text-blue"></i>
+                <div class="text-truncate">Plugins</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/language" class="menu-link">
+                <i class="menu-icon tf-icons las la-language text-indigo"></i>
+                <div class="text-truncate">Language</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/setting/seo" class="menu-link">
+                <i class="menu-icon tf-icons las la-globe text-pink"></i>
+                <div class="text-truncate">SEO</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/setting/kyc" class="menu-link">
+                <i class="menu-icon tf-icons las la-user-check text-primary"></i>
+                <div class="text-truncate">KYC</div>
+            </a>
+        </li>
+
+        <li class="menu-header small">
+            <span class="menu-header-text">FRONTEND</span>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/site/themes" class="menu-link">
+                <i class="menu-icon tf-icons lab la-themeisle text-success"></i>
+                <div class="text-truncate">Themes</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons la la-grip-horizontal text-info"></i>
+                <div class="text-truncate">Site Content</div>
+            </a>
+            <ul class="menu-sub">
+                
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/2fa_confirm" class="menu-link">
+                            <div class="text-truncate">2FA Confirmation</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/about" class="menu-link">
+                            <div class="text-truncate">About Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/banner" class="menu-link">
+                            <div class="text-truncate">Banner Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/breadcrumb" class="menu-link">
+                            <div class="text-truncate">Breadcrumb</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/campaign_category" class="menu-link">
+                            <div class="text-truncate">Campaign Category</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/client_review" class="menu-link">
+                            <div class="text-truncate">Client Review Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/code_verification" class="menu-link">
+                            <div class="text-truncate">Code Verification</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/contact_us" class="menu-link">
+                            <div class="text-truncate">Contact Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/counter" class="menu-link">
+                            <div class="text-truncate">Counter Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/email_confirm" class="menu-link">
+                            <div class="text-truncate">Email Confirmation</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/faq" class="menu-link">
+                            <div class="text-truncate">FAQ Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/featured_campaign" class="menu-link">
+                            <div class="text-truncate">Featured Campaign</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/footer" class="menu-link">
+                            <div class="text-truncate">Footer Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/forgot_password" class="menu-link">
+                            <div class="text-truncate">Forgot Password</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/kyc" class="menu-link">
+                            <div class="text-truncate">KYC Instruction</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/login" class="menu-link">
+                            <div class="text-truncate">Login</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/mobile_confirm" class="menu-link">
+                            <div class="text-truncate">Mobile Confirmation</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/partner" class="menu-link">
+                            <div class="text-truncate">Partner Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/password_reset" class="menu-link">
+                            <div class="text-truncate">Password Reset</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/policy_pages" class="menu-link">
+                            <div class="text-truncate">Policy Pages</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/recent_campaign" class="menu-link">
+                            <div class="text-truncate">Recent Campaign</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/register" class="menu-link">
+                            <div class="text-truncate">Register</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/subscribe" class="menu-link">
+                            <div class="text-truncate">Subscribe Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/success_story" class="menu-link">
+                            <div class="text-truncate">Success Story</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/top_donor" class="menu-link">
+                            <div class="text-truncate">Top Donor Section</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/upcoming" class="menu-link">
+                            <div class="text-truncate">Upcoming Campaigns</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/user_ban" class="menu-link">
+                            <div class="text-truncate">User Ban</div>
+                        </a>
+                    </li>
+                                    <li class="menu-item ">
+                        <a href="../admin/site/sections/volunteer" class="menu-link">
+                            <div class="text-truncate">Volunteer Section</div>
+                        </a>
+                    </li>
+                            </ul>
+        </li>
+
+        <li class="menu-header small">
+            <span class="menu-header-text">OTHERS</span>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/cookie" class="menu-link">
+                <i class="menu-icon tf-icons las la-cookie text-purple"></i>
+                <div class="text-truncate">GDPR Cookie</div>
+            </a>
+        </li>
+
+        <li class="menu-item ">
+            <a href="../admin/maintenance" class="menu-link">
+                <i class="menu-icon tf-icons las la-tools text-cyan"></i>
+                <div class="text-truncate">Maintenance</div>
+            </a>
+        </li>
+
+        <li class="menu-item sidebar-menu-item">
+            <a href="javascript:void(0)" role="button" class="menu-link" data-bs-target="#cacheModal" data-bs-toggle="modal">
+                <i class="menu-icon tf-icons las la-eraser text-indigo"></i>
+                <div class="text-truncate">Cache Clear</div>
+            </a>
+        </li>
+
+        <li class="menu-item sidebar-menu-item">
+            <a href="javascript:void(0)" role="button" class="menu-link" data-bs-target="#systemInfoModal" data-bs-toggle="modal">
+                <i class="menu-icon tf-icons las la-info-circle text-success"></i>
+                <div class="text-truncate">System Info</div>
+            </a>
+        </li>
+    </ul>
+</aside>
+
+<div class="modal fade" id="cacheModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCenterTitle">Flush System Cache</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <hr>
+            <form method="GET" action="../admin/cache-clear">
+                <div class="modal-body">
+                    <div class="card border">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="demo-inline-spacing p-4">
+                                    <ul class="list-group list-group-timeline">
+                                        <li class="list-group-item list-group-timeline-primary">
+                                            <b>The cache containing compiled views will be removed</b>
+                                        </li>
+                                        <li class="list-group-item list-group-timeline-success">
+                                            <b>The cache containing application will be removed</b>
+                                        </li>
+                                        <li class="list-group-item list-group-timeline-warning">
+                                            <b>The cache containing route will be removed</b>
+                                        </li>
+                                        <li class="list-group-item list-group-timeline-info">
+                                            <b>The cache containing configuration will be removed</b>
+                                        </li>
+                                        <li class="list-group-item list-group-timeline-secondary">
+                                            <b>Clearing out the compiled service and package files</b>
+                                        </li>
+                                        <li class="list-group-item list-group-timeline-danger">
+                                            <b>The cache containing system will be removed</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Clear</button>
+                    <button type="button" class="btn btn-label-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="systemInfoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCenterTitle">System Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <hr>
+
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="demo-inline-spacing mt-3">
+                            <div class="list-group list-group-horizontal-md text-md-center">
+                                <a class="list-group-item list-group-item-action active" id="home-list-item" data-bs-toggle="list" href="#app-info">Application</a>
+                                <a class="list-group-item list-group-item-action" id="profile-list-item" data-bs-toggle="list" href="#server-info">Server</a>
+                            </div>
+                            <div class="tab-content px-0 mt-0">
+                                <div class="tab-pane fade show active" id="app-info">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>PnixFund Version</b>
+                                            <span>1.0</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Phinix Admin Version</b>
+                                            <span>0.0.1</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Laravel Version</b>
+                                            <span>10.48.4</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Timezone</b>
+                                            <span>UTC</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="server-info">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>PHP Version</b>
+                                            <span>8.2.16</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Server Software</b>
+                                            <span>LiteSpeed</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Server IP Address</b>
+                                            <span>64.140.161.130</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Server Protocol</b>
+                                            <span>HTTP/1.1</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>HTTP Host</b>
+                                            <span>phinix.digital</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <b>Server Port</b>
+                                            <span>443</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <nav class="layout-navbar container-fluid navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+        <div class="navbar-nav align-items-center">
+            <div id="searchBoxLg">
+                <div class="nav-item d-flex align-items-center navbar-search">
+                    <i class="las la-search fs-4 lh-0"></i>
+                    <input type="text" class="form-control border-0 shadow-none w-100 navbar-search-field" id="searchInput" placeholder="Search..." autocomplete="off">
+                    <ul class="search-list d-none"></ul>
+                </div>
+            </div>
+        </div>
+
+        <ul class="navbar-nav flex-row align-items-center ms-auto">
+            <!-- Visit Website  -->
+            <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-2 me-xl-0">
+                <a class="nav-link text-primary" href="https://phinix.digital/pnixfund" target="_blank" title="Visit Website">
+                    <i class="fas fa-globe"></i>
+                </a>
+            </li>
+            <!-- Visit Website  -->
+
+            <!-- Quick links  -->
+            <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-3 me-xl-1">
+                <a class="nav-link dropdown-toggle hide-arrow text-info" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    <i class="fas fa-th-large"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end py-0">
+                    <div class="dropdown-menu-header border-bottom">
+                        <div class="dropdown-header d-flex align-items-center py-3">
+                            <h5 class="text-body mb-0 me-auto">Shortcuts</h5>
+                        </div>
+                    </div>
+                    <div class="dropdown-shortcuts-list scrollable-container">
+                        <div class="row row-bordered overflow-visible g-0">
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-warning">
+                                    <i class="las la-hand-holding-usd fs-4"></i>
+                                </span>
+                                <a href="../admin/donations/pending" class="stretched-link">Donations</a>
+                                <small class="text-muted mb-0">Pending</small>
+                            </div>
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-warning">
+                                    <i class="las la-university fs-4"></i>
+                                </span>
+                                <a href="../admin/withdraw/pending" class="stretched-link">Withdrawals</a>
+                                <small class="text-muted mb-0">Pending</small>
+                            </div>
+                        </div>
+                        <div class="row row-bordered overflow-visible g-0">
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-warning">
+                                    <i class="las la-user-check fs-4"></i>
+                                </span>
+                                <a href="../admin/user/kyc-pending" class="stretched-link">KYC</a>
+                                <small class="text-muted mb-0">Pending</small>
+                            </div>
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-success">
+                                    <i class="las la-cog fs-4"></i>
+                                </span>
+                                <a href="../admin/setting/basic" class="stretched-link">Settings</a>
+                                <small class="text-muted mb-0">Basic, System, Logo</small>
+                            </div>
+                        </div>
+                        <div class="row row-bordered overflow-visible g-0">
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-info">
+                                    <i class="las la-credit-card fs-4"></i>
+                                </span>
+                                <a href="../admin/gateway/automated" class="stretched-link">Automated</a>
+                                <small class="text-muted mb-0">Payment Gateway</small>
+                            </div>
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-2 bg-label-primary">
+                                    <i class="las la-credit-card fs-4"></i>
+                                </span>
+                                <a href="../admin/gateway/manual" class="stretched-link">Manual</a>
+                                <small class="text-muted mb-0">Payment Gateway</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Quick links -->
+
+            <!-- Notification -->
+            <li class="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-1">
+                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge bg-danger badge-notifications">3</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end py-0">
+                    <li class="dropdown-menu-header border-bottom">
+                        <div class="dropdown-header d-flex align-items-center py-3">
+                            <h5 class="text-body mb-0 me-auto">Notification</h5>
+                            <a href="../admin/notification/read-all" class="dropdown-notifications-all text-body" title="Mark all as read">
+                                <i class="las la-envelope-open-text fs-4"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown-notifications-list scrollable-container">
+                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                    <div class="d-flex">
+                                        <a href="../admin/notification/read/165" class="flex-grow-1">
+                                            <h6 class="mb-1">Donation request from Tuhin Hookah for a campaign</h6>
+                                            <small class="text-muted">6 hours ago</small>
+                                        </a>
+                                        <div class="flex-shrink-0 dropdown-notifications-actions">
+                                            <div class="dropdown-notifications-read"><span class="badge badge-dot"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                    <div class="d-flex">
+                                        <a href="../admin/notification/read/164" class="flex-grow-1">
+                                            <h6 class="mb-1">New member registered</h6>
+                                            <small class="text-muted">6 hours ago</small>
+                                        </a>
+                                        <div class="flex-shrink-0 dropdown-notifications-actions">
+                                            <div class="dropdown-notifications-read"><span class="badge badge-dot"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                    <div class="d-flex">
+                                        <a href="../admin/notification/read/162" class="flex-grow-1">
+                                            <h6 class="mb-1">New member registered</h6>
+                                            <small class="text-muted">15 hours ago</small>
+                                        </a>
+                                        <div class="flex-shrink-0 dropdown-notifications-actions">
+                                            <div class="dropdown-notifications-read"><span class="badge badge-dot"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                                    </ul>
+                    </li>
+                    <li class="dropdown-menu-footer border-top p-3">
+                        <a href="../admin/notification/all" class="btn btn-primary w-100">View all notifications</a>
+                    </li>
+                </ul>
+            </li>
+            <!--/ Notification -->
+
+            <!-- Admin -->
+            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar avatar-online">
+                        <img src="../assets/admin/images/profile/6601d72528b8a1711396645.png" alt class="w-px-40 h-auto rounded-circle">
+                    </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item d-flex" href="../admin/profile">
+                            <i class="las la-user-tie fs-4 me-2"></i>
+                            <span class="align-middle">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex" href="../admin/password">
+                            <i class="las la-key fs-4 me-2"></i>
+                            <span class="align-middle">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex" href="../admin/setting/basic">
+                            <i class="las la-cog fs-4 me-2"></i>
+                            <span class="align-middle">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex" href="../admin/logout">
+                            <i class="las la-power-off fs-4 me-2"></i>
+                            <span class="align-middle">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!--/ Admin -->
+        </ul>
+    </div>
+</nav>
+
+            <div class="layout-page">
+                <div class="content-wrapper">
+                    <div class="container-fluid flex-grow-1 container-p-y">
+                        <div class="row">
+                            <div class="col-xxl">
+                                <div class="card mb-4">
+                                    <div class="card-header d-flex flex-wrap gap-3 justify-content-between align-items-center">
+                                        <h5 class="mb-0">Campaign Details</h5>
+                                        <div class="d-flex flex-wrap justify-content-md-end gap-2 align-items-center">
+                                                <a href="../admin/campaigns/index" class="btn btn-label-primary">
+        <span class="tf-icons las la-arrow-circle-left me-1"></span> Back    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="row">
+        <div class="col-12">
+            <div class="card g-3">
+                <div class="card-body row g-3">
+                    <div class="col-lg-6">
+                        <div class="card academy-content shadow-sm border">
+                            <div class="card-body">
+                                <img src="../assets/universal/images/campaign/660d8401400f81712161793.jpeg" alt="image" class="rounded img-fluid">
+                                <h4 class="mt-4 mb-2 lh-lg">Campagna di prova</h4>
+
+                                
+                                <hr class="my-4">
+                                <h5>Description</h5>
+                                <div class="description">
+                                    <p>Questa è una campagna di prova</p>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card academy-content shadow-sm border">
+                            <div class="card-body">
+                                <h5>Basic Information</h5>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="text-nowrap">
+                                            <i class="las la-stream me-2"></i><span class="fw-bold">Category:</span> Emergency
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-user me-2"></i>
+                                            <span class="fw-bold">Author:</span>
+                                            <a href="../admin/user/details/29">@bacarell</a>
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-calendar me-2"></i><span class="fw-bold">Start Date:</span> <span>04-Apr-2024</span>
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-calendar me-2"></i><span class="fw-bold">End Date:</span> <span class="text-warning">05-Apr-2024</span>
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-clipboard-check me-2"></i><span class="fw-bold">Approval Status:</span> <span class="badge bg-label-warning">Pending</span>                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="text-nowrap">
+                                            <i class="las la-bullhorn me-2"></i><span class="fw-bold">Campaign Status:</span> <span class="badge bg-label-warning">N/A</span>                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-tag me-2"></i><span class="fw-bold">Featured Status:</span> <span class="badge bg-label-warning">No</span>                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-hand-holding-usd me-2"></i><span class="fw-bold">Goal Amount:</span> $5,000.00
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-wallet me-2"></i><span class="fw-bold">Raised Amount:</span> $0.00
+                                        </p>
+                                        <p class="text-nowrap">
+                                            <i class="las la-users me-2"></i><span class="fw-bold">Total Donor:</span> 0
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <p class="text-nowrap mb-0">
+                                                    <i class="las la-spinner me-2"></i><span class="fw-bold">Donation Progress:</span>
+                                                </p>
+                                            </div>
+
+                                            
+                                            <div class="progress flex-grow-1 custom-progress-bar">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                                    0%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="my-4">
+                                <h5>Relevant Images</h5>
+                                <div>
+                                    <div class="swiper" id="swiper-with-progress">
+                                        <div class="swiper-wrapper">
+                                                                                            <div class="swiper-slide" style="background-image: url(../assets/universal/images/campaign/660d83cb9a3d31712161739.jpeg)"></div>
+                                                                                            <div class="swiper-slide" style="background-image: url(../assets/universal/images/campaign/660d83d5863d91712161749.jpg)"></div>
+                                                                                    </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-next swiper-button-white custom-icon"></div>
+                                        <div class="swiper-button-prev swiper-button-white custom-icon"></div>
+                                    </div>
+                                </div>
+
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card academy-content shadow-sm border">
+                            <div class="card-body">
+                                <h5>Comments</h5>
+
+                                                                    <p class="mb-0">No data found</p>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-onboarding modal fade animate__animated" id="decisionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="onboarding-media">
+                    <div class="mx-2">
+                        <img src="../assets/admin/images/light.png" alt="light" width="100" class="img-fluid">
+                    </div>
+                </div>
+                <div class="onboarding-content mb-0">
+                    <h4 class="onboarding-title text-body">Make Your Decision</h4>
+                    <div class="onboarding-info question"></div>
+                </div>
+            </div>
+            <form action="" method="POST">
+                <input type="hidden" name="_token" value="BauNVIatwEL8G9RJ3ORgcZ9m9VzacJ1cC0UKlBuO" autocomplete="off">                <div class="modal-footer border-0 justify-content-center">
+                    <button type="submit" class="btn btn-primary">Yes</button>
+                    <button type="button" class="btn btn-label-secondary" data-bs-dismiss="modal">No</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+                    </div>
+
+                    <footer class="content-footer footer bg-footer-theme border-top">
+                        <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+                            <div class="mb-2 mb-md-0">
+                                <b class="text-primary">PnixFund</b>, Version <b class="text-primary">1.0</b>, ©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout-overlay layout-menu-toggle"></div>
+        <div class="drag-target"></div>
+    </div>
+
+        <script src="../assets/admin/js/helpers.js"></script>
+        <script src="../assets/admin/js/config.js"></script>
+        <script src="../assets/universal/js/jquery-3.7.1.min.js"></script>
+        <script src="../assets/universal/js/bootstrap.js"></script>
+        <script src="../assets/admin/js/scrollbar.js"></script>
+
+        <link rel="stylesheet" href="../assets/universal/css/iziToast.min.css">
+<script src="../assets/universal/js/iziToast.min.js"></script>
+
+
+
+<script>
+    "use strict";
+
+    function showToasts(status, message) {
+        if (typeof message == 'string') {
+            iziToast[status]({
+                message: message,
+                position: "topRight"
+            });
+        } else {
+            $.each(message, function(i, val) {
+                iziToast[status]({
+                    message: val,
+                    position: "topRight"
+                });
+            });
+        }
+    }
+</script>
+            <script src="../assets/admin/js/page/swiper.js"></script>
+    <script src="../assets/admin/js/page/ui-carousel.js"></script>
+    <script src="../assets/admin/js/page/menu.js"></script>
+            <script>
+        (function($) {
+            "use strict";
+
+            $(document).on('click', '.decisionBtn', function() {
+                let modal = $('#decisionModal');
+                let data = $(this).data();
+
+                modal.find('.question').text(`${data.question}`);
+                modal.find('form').attr('action', `${data.action}`);
+                modal.modal('show');
+            });
+        })(jQuery);
+    </script>
+
+        <script src="../assets/admin/js/main.js"></script>
+    </body>
+</html>
