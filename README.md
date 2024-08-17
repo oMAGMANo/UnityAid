@@ -59,7 +59,7 @@ We’re constantly working to improve UnityAid. Some of the exciting things on o
 UnityAid is brought to you by:
 
 - **Samrat Ganguly** - AI/ML Junior at VIT Chennai, Class of '25
-- **Musaddik Karanje** - Ex-Intern at GTRE-DRDO
-- **Shivam Singh** - Full-Stack Web Developer and AI/ML Enthusiast
+- **Musaddik Karanje** - Full-Stack Web Developer and AI/ML Enthusiast
+- **Shivam Singh** - Ex-Intern at GTRE-DRDO 
 
 ---
