@@ -60,6 +60,6 @@ UnityAid is brought to you by:
 
 - **Samrat Ganguly** - AI/ML Junior at VIT Chennai, Class of '25
 - **Musaddik Karanje** - Full-Stack Web Developer and AI/ML Enthusiast
-- **Shivam Singh** - Ex-Intern at GTRE-DRDO 
+- **Shivam Singh** - ML Enthusiastic Ex-Intern at GTRE-DRDO 
 
 ---
